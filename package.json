@@ -1,0 +1,24 @@
+{
+  "name": "clicboardhelper",
+  "version": "1.5.1",
+  "description": "Monitors the Clipboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crystalii/clicboardhelper"
+  },
+  "keywords": [
+    "clipboard",
+    "clipboard-event",
+    "clipboard-change",
+    "clipboard-monitor"
+  ],
+  "author": "crystalii <ahmadardal@live.se>",
+  "bugs": {
+    "url": "https://github.com/crystalii/clicboardhelper/issues"
+  },
+  "homepage": "https://github.com/crystalii/clicboardhelper"
+}
