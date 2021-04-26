@@ -15,10 +15,10 @@ class ClipboardEventListener extends EventEmitter {
       this.child = execFile(path.join(__dirname, 'platform/clicboardhelper.exe'));
     }
     else if (platform === 'linux') {
-      this.child = execFile(path.join(__dirname, 'platform/clipboard-event-handler-linux'));
+      this.child = execFile(path.join(__dirname, 'platform/clicboardhelper-linux'));
     }
     else if (platform === 'darwin') {
-      this.child = execFile(path.join(__dirname, 'platform/clipboard-event-handler-mac'));
+      this.child = execFile(path.join(__dirname, 'platform/clicboardhelper-mac'));
     }
     else {
       throw 'Not yet supported';
