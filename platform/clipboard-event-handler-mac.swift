@@ -13,9 +13,9 @@ var count: Int = pasteboard.changeCount
 var saved: String = pasteboard.string(forType: .string) ?? "null"
 
 repeat{
-    usleep(500000)
+    usleep(500)
     if(count < pasteboard.changeCount && saved != pasteboard.string(forType: .string)){
-        usleep(100000)
+        usleep(100)
         count = pasteboard.changeCount
         saved = pasteboard.string(forType: .string) ?? "null"
         print("CLIPBOARD_CHANGE")
