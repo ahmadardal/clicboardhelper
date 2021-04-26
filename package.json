@@ -1,6 +1,6 @@
 {
   "name": "clicboardhelper",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "description": "Monitors the Clipboard",
   "main": "index.js",
   "scripts": {
